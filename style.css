@@ -120,7 +120,7 @@ body    {
     height: 50%;
     margin-left: auto;
     margin-right: auto;
-    padding: 60px 86px 100px;
+    padding: 60px 85px 100px;
     background-color: #212121;
     color: white;
 }
@@ -142,8 +142,9 @@ body    {
 
 .galeri {
     display: flexbox;
-    justify-content:  center;
+    justify-items: center;
     gap: 2rem;
+    margin-left: 2%;
 }
 
 .galeri img {
@@ -193,3 +194,31 @@ footer  {
     background: #212121;
     color: white;
 }
+
+@media screen and (max-width: 600px) {
+    .galeri img {
+        display: grid;
+        justify-items: center;
+        max-width: 300px;
+        
+        
+}
+    .home   {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    }
+
+    .title1 {
+        font-size: 40px;
+    }
+
+
+
+
+
+
+
+
+}
+
