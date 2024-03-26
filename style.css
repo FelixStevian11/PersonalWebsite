@@ -114,6 +114,9 @@ body    {
     font-weight: 500;
 }
 
+.about-me > p   {
+    text-align: center;
+}
 
 .portfolio  {
     max-width: 100%;
